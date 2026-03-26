@@ -1,0 +1,351 @@
+/* GLOBAL RESET (safe) */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+a:hover {
+    color: #1abc9c;
+}
+
+/* TABLE COMMON */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* =========================
+   ADMIN DASHBOARD
+========================= */
+.admin-dashboard {
+    padding: 30px;
+}
+
+.admin-dashboard h1 {
+    color: #2c3e50;
+}
+
+.admin-dashboard h2 {
+    margin-top: 30px;
+}
+
+.admin-dashboard ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-dashboard ul li {
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+/* =========================
+   MANAGE USERS
+========================= */
+.manage-users {
+    padding: 30px;
+    background: #ffffff;
+}
+
+.manage-users h1 {
+    color: #34495e;
+}
+
+.manage-users form {
+    background: #ecf0f1;
+    padding: 20px;
+    width: 400px;
+    border-radius: 6px;
+}
+
+.manage-users input,
+.manage-users select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+}
+
+.manage-users button {
+    padding: 8px 15px;
+    background: #2ecc71;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.manage-users table {
+    margin-top: 30px;
+    width: 90%;
+}
+
+/* =========================
+   MANAGE ACCOUNTS
+========================= */
+.manage-accounts {
+    padding: 30px;
+    background: #ffffff;
+}
+
+.manage-accounts h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.manage-accounts table {
+    width: 80%;
+    margin: auto;
+}
+
+/* =========================
+   VIEW TRANSACTIONS
+========================= */
+.view-transactions {
+    padding: 30px;
+}
+
+.view-transactions h1 {
+    text-align: center;
+    color: #16a085;
+}
+
+.view-transactions table {
+    width: 85%;
+    margin: auto;
+}
+/* =========================
+   MANAGE ACCOUNTS
+========================= */
+
+.manage-accounts {
+    background: #f4f6f8;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.accounts-container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.manage-accounts h1,
+.manage-accounts h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.account-form {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.account-form input,
+.account-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.account-form button {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.account-form button:hover {
+    background: #1a252f;
+}
+
+.accounts-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.accounts-table th {
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+}
+
+.accounts-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.accounts-table tr:hover {
+    background: #f1f1f1;
+}
+
+.balance {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #2980b9;
+}
+/* =========================
+   MANAGE ACCOUNTS
+========================= */
+
+.manage-accounts {
+    background: #f4f6f8;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.accounts-container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.manage-accounts h1,
+.manage-accounts h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.account-form {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.account-form input,
+.account-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.account-form button {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.account-form button:hover {
+    background: #1a252f;
+}
+
+.accounts-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.accounts-table th {
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+}
+
+.accounts-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.accounts-table tr:hover {
+    background: #f1f1f1;
+}
+
+.balance {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #2980b9;
+}
+/* =========================
+   TRANSACTION HISTORY ONLY
+========================= */
+
+.view-transactions {
+    background: #f4f6f8;
+    min-height: 100vh;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.view-transactions h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.view-transactions table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.view-transactions th {
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.view-transactions td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.view-transactions tr:hover {
+    background: #f1f1f1;
+}
+
+.view-transactions td:nth-child(4) {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.view-transactions a {
+    display: inline-block;
+    margin: 25px auto;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.view-transactions a:hover {
+    text-decoration: underline;
+}
+
